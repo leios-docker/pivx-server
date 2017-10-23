@@ -1,9 +1,9 @@
 # Pull base image.
 FROM ubuntu:16.04
 
-ADD files/pivx-3.0.0-x86_64-linux-gnu.tar.gz /root/
+ADD files/pivx-3.0.2-x86_64-linux-gnu.tar.gz /root/
 
-ENV PATH $PATH:/root/pivx-3.0.0/bin
+ENV PATH $PATH:/root/pivx-3.0.2/bin
 
 # Define mountable directories.
 VOLUME ["/root/.pivx/"]
