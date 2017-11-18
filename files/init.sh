@@ -1,2 +1,2 @@
 #!/bin/sh
-/root/pivx-3.0.2/bin/pivxd
+/root/pivx-${PIVX_VERSION}/bin/pivxd
